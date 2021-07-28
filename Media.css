@@ -3,17 +3,27 @@
         max-width: 1600px;
         max-height: 625px;
     }
+    #btn0, #btn1, #btn2, #btn3 {
+        width: 1600px;
+    }
+
 }
 @media (max-width: 2200px ) {
     #image1 {
         max-width: 1500px;
         max-height: 580px;
     }
+    #btn0, #btn1, #btn2, #btn3 {
+        width: 1500px;
+    }
 }
 @media (max-width: 2050px ) {
     #image1 {
         max-width: 1350px;
         max-height: 540px;
+    }
+    #btn0, #btn1, #btn2, #btn3 {
+        width: 1300px;
     }
 }
 @media (max-width: 1850px ) {
@@ -22,6 +32,9 @@
     }
     #image2 {
         display: block;
+    }
+    #btn0, #btn1, #btn2, #btn3 {
+        width: 1100px;
     }
 }
 @media (max-width: 1550px ) {
@@ -32,7 +45,10 @@
     #image2 {
         max-width: 900px;
         max-height: 600px;
-    } 
+    }
+    #btn0, #btn1, #btn2, #btn3 {
+        width: 850px;
+    }
 }
 @media (max-width: 1250px ) {
     #titleImg {
@@ -42,19 +58,28 @@
     #image2 {
         max-width: 700px;
         max-height: 425px;
-    }  
+    }
+    #btn0, #btn1, #btn2, #btn3 {
+        width: 650px;
+    }
 }
 @media (max-width: 1000px ) {
     #image2 {
         max-width: 600px;
         max-height: 375px;
-    }  
+    }
+    #btn0, #btn1, #btn2, #btn3 {
+        width: 525px;
+    }
 }
 @media (max-width: 850px ) {
     #image2 {
         max-width: 500px;
         max-height: 290px;
-    }  
+    }
+    #btn0, #btn1, #btn2, #btn3 {
+        width: 450px;
+    }
 }
 @media (max-width: 750px ) {
     #titleImg {
@@ -64,7 +89,16 @@
     #image2 {
         max-width: 275px;
         max-height: 175px;
-    }  
+    }
+    #btn0, #btn1, #btn2, #btn3 {
+        width: 350px;
+        font-size: 30px;
+    }
+}
+@media (max-width: 600px ) {
+    #btn0, #btn1, #btn2, #btn3 {
+        width: 250px;
+    }
 }
 @media (max-width: 450px ) {
     #titleImg {
@@ -75,5 +109,8 @@
     }
     #titleImg2 {
         display: block;
+    }
+    #btn0, #btn1, #btn2, #btn3 {
+        width: 200px;
     }
 }
