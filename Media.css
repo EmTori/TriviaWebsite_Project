@@ -3,7 +3,7 @@
         max-width: 1600px;
         max-height: 625px;
     }
-    #btn0, #btn1, #btn2, #btn3 {
+    #button1, #button2, #button3, #button4 {
         width: 1600px;
     }
 
@@ -13,7 +13,7 @@
         max-width: 1500px;
         max-height: 580px;
     }
-    #btn0, #btn1, #btn2, #btn3 {
+    #button1, #button2, #button3, #button4 {
         width: 1500px;
     }
 }
@@ -22,7 +22,7 @@
         max-width: 1350px;
         max-height: 540px;
     }
-    #btn0, #btn1, #btn2, #btn3 {
+    #button1, #button2, #button3, #button4 {
         width: 1300px;
     }
 }
@@ -33,7 +33,7 @@
     #image2 {
         display: block;
     }
-    #btn0, #btn1, #btn2, #btn3 {
+    #button1, #button2, #button3, #button4 {
         width: 1100px;
     }
 }
@@ -46,7 +46,7 @@
         max-width: 900px;
         max-height: 600px;
     }
-    #btn0, #btn1, #btn2, #btn3 {
+    #button1, #button2, #button3, #button4 {
         width: 850px;
     }
 }
@@ -59,7 +59,7 @@
         max-width: 700px;
         max-height: 425px;
     }
-    #btn0, #btn1, #btn2, #btn3 {
+    #button1, #button2, #button3, #button4 {
         width: 650px;
     }
 }
@@ -68,7 +68,7 @@
         max-width: 600px;
         max-height: 375px;
     }
-    #btn0, #btn1, #btn2, #btn3 {
+    #button1, #button2, #button3, #button4 {
         width: 525px;
     }
 }
@@ -77,7 +77,7 @@
         max-width: 500px;
         max-height: 290px;
     }
-    #btn0, #btn1, #btn2, #btn3 {
+    #button1, #button2, #button3, #button4 {
         width: 450px;
     }
 }
@@ -90,13 +90,13 @@
         max-width: 275px;
         max-height: 175px;
     }
-    #btn0, #btn1, #btn2, #btn3 {
+    #button1, #button2, #button3, #button4 {
         width: 350px;
         font-size: 30px;
     }
 }
 @media (max-width: 600px ) {
-    #btn0, #btn1, #btn2, #btn3 {
+    #button1, #button2, #button3, #button4 {
         width: 250px;
     }
 }
@@ -110,7 +110,7 @@
     #titleImg2 {
         display: block;
     }
-    #btn0, #btn1, #btn2, #btn3 {
+    #button1, #button2, #button3, #button4 {
         width: 200px;
     }
 }
