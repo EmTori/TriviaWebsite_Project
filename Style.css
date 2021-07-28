@@ -51,7 +51,7 @@
     font-weight: 600;
     margin-bottom: 5%;
 }
-#button1, #button2, #button3, #button4 {
+#button0, #button1, #button2, #button3 {
     background-color: white;
     width: 1700px;
     font-size: 40px;
@@ -66,13 +66,13 @@
     margin-right: auto;
     padding: 30px 30px;
 }
-#button1:hover, #button2:hover, #button3:hover, #button4:hover {
+#button0:hover, #button1:hover, #button2:hover, #button3:hover {
     box-shadow: 0 10px 15px 0 rgba(0,0,0, 0.9);
     border: 2px solid rgb(124, 15, 19);
     background-color: rgb(237, 29, 36);
     color: white;
 }
-#button1:focus, #button2:focus, #button3:focus, #button4:focus {
+#button0:focus, #button1:focus, #button2:focus, #button3:focus {
     outline: 0;
 }
 #progress {
