@@ -1,252 +1,27 @@
 let myQuestions = [
-    {
-      question: "Where Is The Avengers Tower Located?",
-      answers: {
-        a: "Brooklyn",
-        b: "Queens",
-        c: "New York City",
-        d: "Manhattan"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "According To Tony Stark, What Is Phil Coulson's First Name?",
-      answers: {
-        a: "Sergeant",
-        b: "Agent",
-        c: "Officer",
-        d: "Director"
-      },
-      correctAnswer: "b"
-    },
-    {
-      question: "How Many Years Was Captain American Frozen In Ice?",
-      answers: {
-        a: "70 Years",
-        b: "60 Years",
-        c: "100 Years",
-        d: "90 Years"
-      },
-      correctAnswer: "a"
-    },
-    {
-      question: "What Is Hawkeye's Real Name?",
-      answers: {
-        a: "Clint Archer",
-        b: "Oliver Queen",
-        c: "Clint Barton",
-        d: "Ronin"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "Who Pulls Captain America's Unconscious Body Out Of The Potomac River?",
-      answers: {
-        a: "Sam Wilson",
-        b: "Tony Stark",
-        c: "S.H.I.E.L.D",
-        d: "The Winter Soldier"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "What Is Howard Stark's “Greatest Creation?",
-      answers: {
-        a: "Captain America's Shield",
-        b: "His Child",
-        c: "Arc Reactor",
-        d: "Stark Industries"
-      },
-      correctAnswer: "b"
-    },
-    {
-      question: "What Year Was The First Iron Man Movie Released?",
-      answers: {
-        a: "2009",
-        b: "2007",
-        c: "2006",
-        d: "2008"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "What Is Captain America’s Shield Made Out Of?",
-      answers: {
-        a: "Vibranium",
-        b: "Titanium",
-        c: "Adamantium",
-        d: "Carbonadium"
-      },
-      correctAnswer: "a"
-    },
-    {
-      question: "What Country Are Scarlet Witch And Quicksilver From?",
-      answers: {
-        a: "Russia",
-        b: "Sokovia",
-        c: "Germany",
-        d: "Slovakia"
-      },
-      correctAnswer: "b"
-    },
-    {
-      question: "Who Was The Last Holder Of The Space Stone Before Thanos?",
-      answers: {
-        a: "Hydra",
-        b: "The Collector",
-        c: "Loki",
-        d: "The Sorcerer Supreme"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "What Is NOT A Colour Of An Infinity Stone?",
-      answers: {
-        a: "Black",
-        b: "Orange",
-        c: "Blue",
-        d: "Green"
-      },
-      correctAnswer: "a"
-    },
-    {
-      question: "What Is The Name Of The Universe Ant-Man Travels To When He Goes Subatomic?",
-      answers: {
-        a: "The Astral Realm",
-        b: "The Subatomic Realm",
-        c: "The Atomic Realm",
-        d: "The Quantum Realm"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "What Is The Name Of The Treaty Which Divides The Avengers Into Opposing Factions?",
-      answers: {
-        a: "The Hero Accords",
-        b: "The Sokovia Accords",
-        c: "The S.H.I.E.L.D Accords",
-        d: "The Wakanda Accords"
-      },
-      correctAnswer: "b"
-    },
-    {
-      question: "Which Of The Infinity Stones Is Hidden On Vormir?",
-      answers: {
-        a: "The Soul Stone",
-        b: "The  Mind Stone",
-        c: "The Reality Stone",
-        d: "The Power Stone"
-      },
-      correctAnswer: "a"
-    },
-    {
-      question: "What Does Dr.Strange Use To Control Time?",
-      answers: {
-        a: "The Time Chair",
-        b: "The Tesseract",
-        c: "The Eye Of Agamotto",
-        d: "The Heart of the Universe"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "How Tall Was Steve Rogers Before Taking The Super Soldier Serum?",
-      answers: {
-        a: "5’7”",
-        b: "5’9”",
-        c: "5’6”",
-        d: "5’4”"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "In “Thor: The Dark World”, Who Does Loki Turn Himself Into?",
-      answers: {
-        a: "Black Widow",
-        b: "Captain America",
-        c: "Hawkeye",
-        d: "Iron Man"
-      },
-      correctAnswer: "b"
-    },
-    {
-      question: "Who Destroys Thor's Hammer?",
-      answers: {
-        a: "Hela",
-        b: "Loki",
-        c: "Thanos",
-        d: "Ultron"
-      },
-      correctAnswer: "a"
-    },
-    {
-      question: "What Memento Does Peter Quill Have From His Mother?",
-      answers: {
-        a: "A Teddy Bear",
-        b: "A Photograph",
-        c: "A Letter",
-        d: "A Mix Tape"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "What's The Name Of The AI Tony Stark Invented To Replace J.A.R.V.I.S.?",
-      answers: {
-        a: "E.D.I.T.H",
-        b: "F.R.I.D.A.Y",
-        c: "S.H.I.E.L.D",
-        d: "U.L.T.R.O.N"
-      },
-      correctAnswer: "b"
-    },
-    {
-      question: "In Which Film Did Black Widow First Appear?",
-      answers: {
-        a: "Iron Man 2",
-        b: "Thor",
-        c: "Iron Man",
-        d: "Captain America The First Avenger"
-      },
-      correctAnswer: "a"
-    },
-    {
-      question: "What Is The Name Of The Alien Race Loki Teams Up With In The Avengers?",
-      answers: {
-        a: "The Frost Giants",
-        b: "The Kree",
-        c: "The Skrull",
-        d: "The Chitauri"
-      },
-      correctAnswer: "d"
-    },
-    {
-      question: "Who Can Lift Thor’s Hammer?",
-      answers: {
-        a: "Loki",
-        b: "Bucky Barnes",
-        c: "Captain America",
-        d: "Iron Man"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "What Color Does Agatha’s Magic Appear In WandaVision?",
-      answers: {
-        a: "Purple",
-        b: "Black",
-        c: "Red",
-        d: "Blue"
-      },
-      correctAnswer: "a"
-    },
-    {
-      question: "Which Of These Does Tony Stark NOT Describe Himself As?",
-      answers: {
-        a: "Philanthropist",
-        b: "Playboy",
-        c: "Millionaire",
-        d: "Scientist "
-      },
-      correctAnswer: "d"
-    }
+    new Question("Where Is The Avengers Tower Located?", ["Brooklyn", "Queens", "New York City", "Manhattan"], "New York City"),
+    new Question("According To Tony Stark, What Is Phil Coulson's First Name?", ["Sergeant", "Agent", "Officer", "Director"], "Agent"),
+    new Question("How Many Years Was Captain American Frozen In Ice?", ["70 Years", "60 Years", "100 Years", "90 Years"], "70 Years"),
+    new Question("What Is Hawkeye's Real Name?", ["Clint Archer", "Oliver Queen", "Clint Barton", "Ronin"], "Clint Barton"),
+    new Question("Who Pulls Captain America's Unconscious Body Out Of The Potomac River?", ["Sam Wilson", "Tony Stark", "S.H.I.E.L.D", "The Winter Soldier"], "The Winter Soldier"),
+    new Question("What Is Howard Stark's “Greatest Creation?", ["Captain America's Shield", "His Child", "Arc Reactor", "Stark Industries"], "His Child"),
+    new Question("What Year Was The First Iron Man Movie Released?", ["2009", "2007", "2006", "2008"], "2008"),
+    new Question("What Is Captain America’s Shield Made Out Of?", ["Vibranium", "Titanium", "Adamantium", "Carbonadium"], "Vibranium"),
+    new Question("What Country Are Scarlet Witch And Quicksilver From?", ["Russia", "Sokovia", "Germany", "Slovakia"], "Sokovia"),
+    new Question("Who Was The Last Holder Of The Space Stone Before Thanos?", ["Hydra", "The Collector", "Loki", "The Sorcerer Supreme"], "Loki"),
+    new Question("What Is NOT A Colour Of An Infinity Stone?", ["Black", "Orange", "Blue", "Green"], "Black"),
+    new Question("What Is The Name Of The Universe Ant-Man Travels To When He Goes Subatomic?", ["The Astral Realm", "The Subatomic Realm", "The Atomic Realm", "The Quantum Realm"], "The Quantum Realm"),
+    new Question( "What Is The Name Of The Treaty Which Divides The Avengers Into Opposing Factions?", ["The Hero Accords", "The Sokovia Accords", "The S.H.I.E.L.D Accords", "The Wakanda Accords"], "The Sokovia Accords"),
+    new Question("Which Of The Infinity Stones Is Hidden On Vormir?", ["The Soul Stone", "The  Mind Stone", "The Reality Stone", "The Power Stone"], "The Soul Stone"),
+    new Question("What Does Dr.Strange Use To Control Time?", ["The Time Chair", "The Tesseract", "The Eye Of Agamotto", "The Heart of the Universe"], "The Eye Of Agamotto"),
+    new Question("How Tall Was Steve Rogers Before Taking The Super Soldier Serum?", ["5’7”", "5’9”", "5’6”", "5’4”"], "5’4”"),
+    new Question("In “Thor: The Dark World”, Who Does Loki Turn Himself Into?", ["Black Widow", "Captain America", "Hawkeye", "Iron Man"], "Captain America"),
+    new Question("Who Destroys Thor's Hammer?", ["Hela", "Loki", "Thanos", "Ultron"], "Hela"),
+    new Question("What Memento Does Peter Quill Have From His Mother?", ["A Teddy Bear", "A Photograph", "A Letter", "A Mix Tape"], "A Mix Tape"),
+    new Question("What's The Name Of The AI Tony Stark Invented To Replace J.A.R.V.I.S.?",["E.D.I.T.H", "F.R.I.D.A.Y", "S.H.I.E.L.D", "U.L.T.R.O.N"], "F.R.I.D.A.Y"),
+    new Question("In Which Film Did Black Widow First Appear?", ["Iron Man 2", "Thor", "Iron Man", "Captain America The First Avenger"], "Iron Man 2"),
+    new Question("What Is The Name Of The Alien Race Loki Teams Up With In The Avengers?", ["The Frost Giants", "The Kree", "The Skrull", "The Chitauri"], "The Chitauri"),
+    new Question("Who Can Lift Thor’s Hammer?", ["Loki", "Bucky Barnes", "Captain America", "Iron Man"], "Captain America"),
+    new Question("What Color Does Agatha’s Magic Appear In WandaVision?", ["Purple", "Black", "Red", "Blue"], "Purple"),
+    new Question("Which Of These Does Tony Stark NOT Describe Himself As?", ["Philanthropist", "Playboy", "Millionaire", "Scientist"], "Scientist")
   ];
