@@ -65,12 +65,12 @@ function guess(id, guess) {
 function showProgress() {
   var currentQuestionNumber = quiz.questionIndex + 1;
   var element = document.getElementById("progress");
-  element.innerHTML = "Question " + currentQuestionNumber + " of " + quiz.questions.length;
+  element.innerHTML = "QUESTION " + currentQuestionNumber + " OF " + quiz.questions.length;
 };
 
 function showScores() {
   var gameOverHTML = "<h1 id='result'>RESULTS . . .</h1>";
-  gameOverHTML += "<h2 id='score'> YOUR SCORE IS : </h2>";
+  gameOverHTML += "<h2 id='score'><pre>  YOUR     SCORE     IS     :  </pre></h2>";
   gameOverHTML += "<h2 id='scoreNumber'>"+ quiz.score + " / " + quiz.questions.length +"</h2>";
   var element = document.getElementById("quiz");
   element.innerHTML = gameOverHTML;
@@ -78,31 +78,26 @@ function showScores() {
 
 // create questions here
 var questions = [
-  new Question("Where Is The Avengers Tower Located?", ["Brooklyn", "Queens", "New York City", "Manhattan"], "New York City"),
-  new Question("According To Tony Stark, What Is Phil Coulson's First Name?", ["Sergeant", "Agent", "Officer", "Director"], "Agent"),
-  new Question("How Many Years Was Captain American Frozen In Ice?", ["70 Years", "60 Years", "100 Years", "90 Years"], "70 Years"),
-  new Question("What Is Hawkeye's Real Name?", ["Clint Archer", "Oliver Queen", "Clint Barton", "Ronin"], "Clint Barton"),
-  new Question("Who Pulls Captain America's Unconscious Body Out Of The Potomac River?", ["Sam Wilson", "Tony Stark", "Nick Fury", "The Winter Soldier"], "The Winter Soldier"),
-  //new Question("What Is Howard Stark's “Greatest Creation?", ["Captain America's Shield", "His Child", "Arc Reactor", "Stark Industries"], "His Child"),
-  new Question("What Year Was The First Iron Man Movie Released?", ["2009", "2007", "2008", "2006"], "2008"),
-  new Question("What Is Captain America’s Shield Made Out Of?", ["Vibranium", "Titanium", "Adamantium", "Carbonadium"], "Vibranium"),
-  new Question("What Country Are Scarlet Witch And Quicksilver From?", ["Russia", "Sokovia", "Germany", "Slovakia"], "Sokovia"),
-  //new Question("Who Was The Last Holder Of The Space Stone Before Thanos?", ["Hydra", "The Collector", "Loki", "The Sorcerer Supreme"], "Loki"),
-  //new Question("What Is NOT A Colour Of An Infinity Stone?", ["Black", "Orange", "Blue", "Green"], "Black"),
-  new Question("What Is The Name Of The Universe Ant-Man Travels To When He Goes Subatomic?", ["The Astral Realm", "The Subatomic Realm", "The Quantum Realm", "The Atomic Realm"], "The Quantum Realm"),
-  new Question("What Is The Name Of The Treaty Which Divides The Avengers Into Opposing Factions?", ["The Hero Accords", "The Sokovia Accords", "The S.H.I.E.L.D Accords", "The Wakanda Accords"], "The Sokovia Accords"),
-  new Question("Which Of The Infinity Stones Is Hidden On Vormir?", ["The Soul Stone", "The  Mind Stone", "The Reality Stone", "The Power Stone"], "The Soul Stone"),
-  new Question("What Does Dr.Strange Use To Control Time?", ["The Time Chair", "The Tesseract", "The Heart of the Universe", "The Eye Of Agamotto"], "The Eye Of Agamotto"),
-  //new Question("How Tall Was Steve Rogers Before Taking The Super Soldier Serum?", ["5’7”", "5’9”", "5’6”", "5’4”"], "5’4”"),
-  new Question("In “Thor: The Dark World”, Who Does Loki Turn Himself Into?", ["Black Widow", "Captain America", "Hawkeye", "Iron Man"], "Captain America"),
-  //new Question("Who Destroys Thor's Hammer?", ["Hela", "Loki", "Thanos", "Ultron"], "Hela"),
-  new Question("What Memento Does Peter Quill Have From His Mother?", ["A Teddy Bear", "A Photograph", "A Letter", "A Mix Tape"], "A Mix Tape"),
-  new Question("What's The Name Of The AI Tony Stark Invented To Replace J.A.R.V.I.S.?",["E.D.I.T.H", "S.H.I.E.L.D", "F.R.I.D.A.Y", "U.L.T.R.O.N"], "F.R.I.D.A.Y"),
-  new Question("In Which Film Did Black Widow First Appear?", ["Iron Man 2", "Thor", "Iron Man", "Captain America The First Avenger"], "Iron Man 2"),
-  new Question("What Is The Name Of The Alien Race Loki Teams Up With In The Avengers?", ["The Frost Giants", "The Kree", "The Skrull", "The Chitauri"], "The Chitauri"),
-  new Question("Who Can NOT Lift Thor’s Hammer?", ["Vision", "Hela", "Tony Stark", "Captain America"], "Tony Stark"),
-  new Question("What Color Does Agatha’s Magic Appear In WandaVision?", ["Purple", "Black", "Red", "Blue"], "Purple"),
-  new Question("Which Of These Does Tony Stark NOT Describe Himself As?", ["Philanthropist", "Playboy", "Millionaire", "Scientist"], "Scientist")
+  new Question("WHERE IS THE AVENGERS TOWER LOCATED", ["Brooklyn", "Queens", "New York City", "Manhattan"], "New York City"),
+  new Question("ACCORDING TO TONY STARK, WHAT IS PHIL COULSONS FIRST NAME", ["Sergeant", "Agent", "Officer", "Director"], "Agent"),
+  new Question("HOW MANY YEARS WAS CAPTAIN AMERICA FROZEN IN ICE", ["70 Years", "60 Years", "100 Years", "90 Years"], "70 Years"),
+  new Question("WHAT IS HAWKEYES REAL NAME", ["Clint Archer", "Oliver Queen", "Clint Barton", "Ronin"], "Clint Barton"),
+  new Question("WHO PULLS CAPTAIN AMERICAS UNCONSCIOUS BODY OUT OF THE POTOMAC RIVER", ["Sam Wilson", "Tony Stark", "Nick Fury", "The Winter Soldier"], "The Winter Soldier"),
+  new Question("WHAT YEAR WAS THE FIRST IRON MAN MOVIE RELEASED", ["2009", "2007", "2008", "2006"], "2008"),
+  new Question("WHAT IS CAPTAIN AMERICAS SHIELD MADE OUT OF", ["Vibranium", "Titanium", "Adamantium", "Carbonadium"], "Vibranium"),
+  new Question("WHAT COUNTRY ARE SCARLET WITCH AND QUICKSILVER FROM", ["Russia", "Sokovia", "Germany", "Slovakia"], "Sokovia"),
+  new Question("WHAT IS THE NAME OF THE UNIVERSE ANT-MAN TRAVELS TO WHEN HE GOES SUBATOMIC", ["The Astral Realm", "The Subatomic Realm", "The Quantum Realm", "The Atomic Realm"], "The Quantum Realm"),
+  new Question("WHAT IS THE NAME OF THE TREATY WHICH DIVIDES THE AVENGERS INTO OPPOSING FACTIONS", ["The Hero Accords", "The Sokovia Accords", "The S.H.I.E.L.D Accords", "The Wakanda Accords"], "The Sokovia Accords"),
+  new Question("WHICH OF THE INFINITY STONES IS HIDDEN ON VORMIR", ["The Soul Stone", "The  Mind Stone", "The Reality Stone", "The Power Stone"], "The Soul Stone"),
+  new Question("WHAT DOES DR.STRANGE USE TO CONTROL TIME", ["The Time Chair", "The Tesseract", "The Heart of the Universe", "The Eye Of Agamotto"], "The Eye Of Agamotto"),
+  new Question("IN THOR: THE DARK WORLD, WHO DOES LOKI TURN HIMSELF INTO", ["Black Widow", "Captain America", "Hawkeye", "Iron Man"], "Captain America"),
+  new Question("WHAT MEMENTO DOES PETER QUILL HAVE FROM HIS MOTHER", ["A Teddy Bear", "A Photograph", "A Letter", "A Mix Tape"], "A Mix Tape"),
+  new Question("WHATS THE NAME OF THE AI TONY STARK INVENTED TO REPLACE J.A.R.V.I.S.",["E.D.I.T.H", "S.H.I.E.L.D", "F.R.I.D.A.Y", "U.L.T.R.O.N"], "F.R.I.D.A.Y"),
+  new Question("IN WHICH FILM DID BLACK WIDOW FIRST APPEAR", ["Iron Man 2", "Thor", "Iron Man", "Captain America The First Avenger"], "Iron Man 2"),
+  new Question("WHAT IS THE NAME OF THE ALIEN RACE LOKI TEAMS UP WITH IN THE AVENGERS", ["The Frost Giants", "The Kree", "The Skrull", "The Chitauri"], "The Chitauri"),
+  new Question("WHO CAN <u>NOT</u> LIFT THORS HAMMER", ["Vision", "Hela", "Tony Stark", "Captain America"], "Tony Stark"),
+  new Question("WHAT COLOUE DOES AGATHAS MAGIC APPEAR IN WANDAVISION", ["Purple", "Black", "Red", "Blue"], "Purple"),
+  new Question("WHICH OF THESE DOES TONY STARK <U>NOT</U> DESCRIBE HIMSELF AS", ["Philanthropist", "Playboy", "Millionaire", "Scientist"], "Scientist")
 ];
 
 // create quiz
