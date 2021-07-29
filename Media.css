@@ -39,12 +39,21 @@
         max-height: 115px;
     }
     #button0, #button1, #button2, #button3 {
-        width: 650px;
+        width: 700px;
     }
 }
 @media (max-width: 1000px ) {
     #button0, #button1, #button2, #button3 {
-        width: 525px;
+        width: 540px;
+    }
+    #result {
+        font-size: 2.8em;
+    }
+    #score {
+        font-size: 55px;
+    }
+    #scoreNumber {
+        font-size: 90px;
     }
 }
 @media (max-width: 850px ) {
@@ -54,10 +63,22 @@
         margin-right: 22px;
     }
     #button0, #button1, #button2, #button3 {
-        width: 450px;
+        width: 475px;
+    }
+    #progress {
+        font-size: 20px;
     }
 }
 @media (max-width: 750px ) {
+    #result {
+        font-size: 1.9em;
+    }
+    #score {
+        font-size: 50px;
+    }
+    #scoreNumber {
+        font-size: 80px;
+    }
     #titleImg {
         max-width: 280px;
         max-height: 90px;
@@ -68,11 +89,21 @@
     }
 }
 @media (max-width: 600px ) {
+    .colourBlock {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     #button0, #button1, #button2, #button3 {
-        width: 250px;
+        width: 350px;
+        font-size: 25px;
+        letter-spacing: 0px;
     }
 }
 @media (max-width: 500px ) {
+    .colourBlock {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
     #question {
         margin-left: 10px;
         margin-right: 10px;
@@ -84,6 +115,15 @@
         display: block;
     }
     #button0, #button1, #button2, #button3 {
-        width: 250px;
+        width: 300px;
+    }
+    #result {
+        font-size: 1.8em;
+    }
+    #score {
+        font-size: 40px;
+    }
+    #scoreNumber {
+        font-size: 70px;
     }
 }
