@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(237, 29, 36);
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -5,28 +9,30 @@
     margin-bottom: 2%;
     margin-top: 2%;
 }
+
 #titleImg,  #titleImg2 {
     margin-bottom: 20px;
     margin-top: 20px;
     border-style: solid;
     border-width: 2px;
-    border-color: rgb(0, 0, 0);
+    border-color: black;
 }
-#AvengerLogo, #Logo {
-    margin-top: 60px;
-}
+
 #image2, #titleImg2{
     display: none;
 }
+ 
 .colourBlock {
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border-style: solid;
     border-width: 10px;
+    
 }
+ 
 #question, #result {
     text-align: center;
     font-size: 2.5em;
@@ -37,6 +43,7 @@
     border-bottom: solid;
     border-bottom-width: 4px;
 }
+ 
 #score {
     color: black;
     text-align: center;
@@ -44,6 +51,7 @@
     margin-bottom: 3%;
     margin-top: 5%;
 }
+
 #scoreNumber {
     color: black;
     text-align: center;
@@ -51,6 +59,7 @@
     font-weight: 600;
     margin-bottom: 5%;
 }
+ 
 #button0, #button1, #button2, #button3 {
     background-color: white;
     width: 1700px;
@@ -66,15 +75,18 @@
     margin-right: auto;
     padding: 30px 30px;
 }
+ 
 #button0:hover, #button1:hover, #button2:hover, #button3:hover {
     box-shadow: 0 10px 15px 0 rgba(0,0,0, 0.9);
     border: 2px solid rgb(124, 15, 19);
     background-color: rgb(237, 29, 36);
     color: white;
 }
+ 
 #button0:focus, #button1:focus, #button2:focus, #button3:focus {
     outline: 0;
 }
+ 
 #progress {
     color: black;
     font-size: 20px;
